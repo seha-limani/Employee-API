@@ -39,6 +39,8 @@ public class EmployeeController {
         }
       return employeeResponseList;
     }
-
-
+@PostMapping("/Test")
+public void test(){
+    System.out.println("check code");
+}
 }
